@@ -37,3 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         python sum.py
+        pytest pyunit.py
